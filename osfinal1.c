@@ -11,7 +11,7 @@ struct process{
 };
 void getInput();
 void calcWaitingTime(struct process *q,int);
-void calcTurnAroundTime(struct process *q,int);
+void calcTurnAroundTime(struct process *q,int);//smily
 void printQueue(struct process *q,int size);
 void RoundRobin();
 void PrioSorting();
